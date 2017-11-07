@@ -11,7 +11,7 @@ public class BlogController {
 	
 	@RequestMapping(value="/helloworld",method=RequestMethod.GET)
 	public String Hello() {
-		System.out.println("in Hello method");
+		System.out.println("in Hello method of Hello");
 		return "hello";
 	}
 
